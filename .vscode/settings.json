@@ -59,7 +59,10 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "dense": "c",
-        "core": "cpp"
+        "core": "cpp",
+        "csignal": "cpp",
+        "random": "cpp",
+        "typeindex": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
