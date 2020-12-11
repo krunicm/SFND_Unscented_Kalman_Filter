@@ -97,10 +97,14 @@ class UKF {
   double lambda_;
 
   //NIS for radar
-	double NIS_radar_;
+	double NIS_Radar_;
 
 	//NIS for laser
-	double NIS_laser_;
+	double NIS_Lidar_;
+
+private:
+
+  double Calculate_NIS(const Eigen::VectorXd &z_pred, const Eigen::MatrixXd &S, const Eigen::VectorXd &z);
 };
 
 #endif  // UKF_H
